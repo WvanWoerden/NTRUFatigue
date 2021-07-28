@@ -6,7 +6,7 @@ This repository contains the artifacts associated to the article
 
 [DvW21] **NTRU Fatigue: How Stretched is Overstretched ?**
 by _Léo Ducas and Wessel van Woerden_
-https://eprint.iacr.org/2021/XXX
+https://eprint.iacr.org/2021/999
 
 # Contributers
 
