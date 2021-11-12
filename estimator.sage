@@ -274,7 +274,9 @@ def combined_attack_prob(q, n, sk_variance=2/3., ntru="matrix", fixed_tours=None
     remaining_proba = float(1.)
     average_beta = float(0.)
     total_SKR_prob = float(0.)
+    SKR_prob = float(0.)
     total_DSD_prob = float(0.)
+    DSD_prob = float(0.)
     prob_pos_total = np.zeros(2*n, dtype='double')
 
     for beta in range(2,n):
