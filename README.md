@@ -72,7 +72,7 @@ Parameters n and q can be given a single value (`-n 51`) , a list of values (e.g
 
 Example of an NTRU attack with n=127, and q ranging over all primes from 1300 to 1400
 ```
-[sage/python] experiment.py --n 127 --q 1300~1400p --trials 2 --workers 2 --float_type dd circulant 1 --tours 8 -f 1
+[sage/python] experiments.py --n 127 --q 1300~1400p --trials 2 --workers 2 --float_type dd --circulant 1 --tours 8 -f 1
 ```
 
 Explanation of results:
