@@ -195,7 +195,8 @@ def SKR_attack_prob(beta, q, n, sk_variance=2/3.):
     threshold = float(log(beta * sk_variance)/2.)
 
     def score(m):
-         return - (float(m*logq/(n+m)) - slope_ * float((m+n-1)/2. - beta))
+        m_ = m[0]
+        return - (float(m_*logq/(n+m_)) - slope_ * float((m_+n-1)/2. - beta))
     m = minimize(score, [n])[0]
     m = floor(m)
     m = min(m, n)
